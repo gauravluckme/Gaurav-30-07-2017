@@ -1,0 +1,5 @@
+we could parse the log with the scripting language of our choice in the next jenkins job using the [JENKINSURL]/job/[JOBNAME]/lastBuild/consoleText
+
+or 
+
+we just  need is just the artifact you could have jenkins "Archive the artifact" and then the "Copy artifacts from another project" to pull it into the second job.
