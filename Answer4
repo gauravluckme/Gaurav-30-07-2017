@@ -1,0 +1,11 @@
+This we can configure from the Jenkins GUI for all the email receipents.
+
+By Following the below Steps- 
+a) Open Jenkins using the following URL: http://localhost:8080/ on any browser.
+b) Click the ‘Manage Jenkins’ menu, where we need to select the ‘Manage Plugin’ option.
+c) Search for the Email plugin.
+d) Now, click the checkbox next to the ‘Email-ext Template Plugin’ option. Click the ‘Install without restart’ button.
+e) Enter the SMTP server name under ‘Email Notification’. Click the ‘Advanced’ button and then click the checkbox next to the ‘Use SMTP Authentication’ option.
+f) Check the email notification functionality by clicking the checkbox.
+
+Plus whenever we will get the confirmation the job can be triggered from Jenkins by using "Mail Commander Plugin"
